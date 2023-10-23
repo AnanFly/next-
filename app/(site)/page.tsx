@@ -5,6 +5,7 @@ const test = {
   age: 18,
 };
 function Home() {
+  const { name, age } = test;
   return (
     <div>
       你好阿

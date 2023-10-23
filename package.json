@@ -41,10 +41,12 @@
     "**/*.{css,less}": "stylelint '(pages|components|styles)/**/*.(css|less)' --fix --custom-syntax postcss-less",
     "**/*.ts?(x)": [
       "eslint --cache --fix",
-      "npx prettier --parser=typescript --write"
+      "npx prettier --parser=typescript --write",
+      "git add"
     ],
     "*.json": [
       "prettier --write"
     ]
-  }
+  },
+  "dev": "next dev"
 }
