@@ -1,3 +1,17 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended", "prettier"],
+  "globals": {
+    "React": "readonly"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-unused-vars": "off",
+    "prettier/prettier": [
+      // 把prettier规则传递给prettier插件
+      "error",
+      {
+        "endOfLine": "auto" // 自动识别换行是LF还是CRLF(mac换行符是LF，windows是CRLF)
+      }
+    ]
+  }
 }

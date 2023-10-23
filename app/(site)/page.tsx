@@ -1,6 +1,9 @@
-import Image from "next/image";
-import Button from "./components/Button";
-
+import Image from 'next/image';
+import Button from './components/Button';
+const test = {
+  name: '123',
+  age: 18,
+};
 function Home(props: { hello: string }) {
   const { hello } = props;
   console.log(hello);
@@ -10,12 +13,5 @@ function Home(props: { hello: string }) {
       <Button />
     </div>
   );
-}
-export async function getStaticProps() {
-  return {
-    props: {
-      hello: "world",
-    },
-  };
 }
 export default Home;
