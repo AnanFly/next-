@@ -4,9 +4,7 @@ const test = {
   name: '123',
   age: 18,
 };
-function Home(props: { hello: string }) {
-  const { hello } = props;
-  console.log(hello);
+function Home() {
   return (
     <div>
       你好阿
