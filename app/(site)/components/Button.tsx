@@ -2,7 +2,7 @@ const Button = () => {
   return (
     <button>
       Click me
-      <span>你哈珀</span>{' '}
+      <span className="adMessage">你哈珀</span>{' '}
     </button>
   );
 };

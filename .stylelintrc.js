@@ -12,7 +12,7 @@ module.exports = {
       'declaration-colon-space-after': null, // 允许在冒号后使用空格
       'no-eol-whitespace': null, // 允许使用行尾空白
       'selector-pseudo-class-no-unknown': null, // 允许使用未知的伪类选择器
-      'selector-class-pattern': null, // 允许使用驼峰命名
+        'selector-class-pattern': null,
       'font-family-no-missing-generic-family-keyword': null, // 允许使用不带引号的中文
       'rule-empty-line-before': null, // 允许规则前空行
       'string-quotes': 'single', // 字符串使用单引号
