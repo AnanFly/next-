@@ -1,8 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 这是一个关于nextjs+tailwind+typescript的模板项目(企业级应用开发架构)
+## 开始
+```md
+提示: 该项目是一个企业级应用开发架构,你可以在此基础上进行开发,也可以直接使用该项目进行开发
+说明：项目使用eslint进行代码规范检查,使用prettier进行代码格式化,使用husky进行git提交检查
+      使用stylelint进行样式规范检查,使用commitlint进行git提交规范检查,lint-staged进行git提交检查，保障企业的代码质量
+好处: 如果你是一名还未参与过企业级应用开发的开发者,那么你可以通过该项目了解企业级应用开发的架构
+      如果你是一名有经验的开发者,那么你可以直接使用该项目进行开发
+```
+### 首先
 
-## Getting Started
-
-First, run the development server:
+```md
+你需要了解整个工程目录
+```
 
 ```bash
 npm run dev
