@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export default function Page() {
   return (
     <div>
-      <h1>这是home</h1>
+      <h1>这是home1</h1>
     </div>
   );
 }
