@@ -50,7 +50,7 @@ module.exports = {
         'refactor',
         'revert',
         'style',
-        'test',
+        'testz',
         'translation',
         'security',
         'changeset',
